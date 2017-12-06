@@ -20,28 +20,34 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.html"><img src="images/gidLogo.png" alt="" height="60"></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images/gidLogo.png"></a>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">Home</a></li>
-	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Guilds<span class="caret"></span></a>
-		  <ul class="dropdown-menu">
-		  	<li><a href="1800DR.html">1-800-Druidia</a></li>
-		  	<li><a href="#">Gone to Plaid</a></li>
-		  	<li><a href="#">Liquid Schwartz</a></li>
-		  	<li><a href="#">Ludicrous Speed!</a></li>
-		  	<li><a href="#">My Schwartz is Bigger</a></li>
-		  	<li><a href="#">Spaceballs</a></li>
-		  </ul>
-      <li><a href="#">Apply Now</a></li>
-      <li><a href="#">News</a></li>
-      <li><a href="#">GiD Merch</a></li>
-      <li><a href="#">CubsFanHan</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="guilds.html">Community<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="aboutGID.html">About GiD</a></li>
+            <li><a href="guilds.html">Guilds</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+          </ul>
+        </li>
+        <li><a href="applyNow.html">Podcast</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">GiD Merch</a></li>
+        <li><a href="#">CubsFanHan</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
 
@@ -331,14 +337,13 @@
 		</div> 
 	</div>
 </div>
-</body>
 
 <footer>
     <div class="footer" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4  col-md-2 col-sm-4 col-xs-6">
-                    <h3> Guilds </h3>
+					<h3><a href="guilds.html"> Guilds </a></h3>
                     <ul>
                         <li> <a href="#"> Spaceballs </a> </li>
                         <li> <a href="#"> Ludicrous Speed! </a> </li>
@@ -346,13 +351,14 @@
                         <li> <a href="1800DR.html"> 1-800-Druidia </a> </li>
                         <li> <a href="#"> My Schwartz is Bigger </a> </li>
                         <li> <a href="#"> Gone to Plaid </a> </li>
+                        <li> <a href="#"> Lonestar </a></li>
                     </ul>
                 </div>
                 <div class="row">
                 <div class="col-lg-4  col-md-2 col-sm-4 col-xs-6">
                     <h3> About Us </h3>
                     <ul>
-                        <li> <a href="#"> Apply Now! </a> </li>
+                        <li> <a href="applyNow.html"> Podcast </a> </li>
                         <li> <a href="#"> News </a> </li>
                         <li> <a href="#"> GiD Merch </a> </li>
                         <li> <a href="#"> CubsFanHan </a> </li>
@@ -374,5 +380,7 @@
 	</div>
     <!--/.footer-->
 </footer>
+
+</body>
 
 </html>
