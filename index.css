@@ -78,43 +78,35 @@ body {
 	margin-bottom: 120px;
 	margin-left: 35px;
 }
-.guildDR {
-	margin-bottom: 45px;
-	margin-right: 45px;
+.guildPosition img:hover {
 	box-shadow: 12px 0 15px -4px #333333, -12px 0 15px -4px #333333;
+	height: 248px;
+	width: 248px;
+	cursor: pointer;
+}
+.guildDR {
+	margin-bottom: 45px;	
 }
 .guildBF {
 	margin-right: 45px;
-	margin-bottom: 45px;
-	box-shadow: 12px 0 15px -4px #333333, -12px 0 15px -4px #333333;
 }
 .guildGtP {
 	margin-bottom: 45px;
-	margin-right: 45px;
-	box-shadow: 12px 0 15px -4px #333333, -12px 0 15px -4px #333333;
 }
 .guildLS {
 	margin-bottom: 45px;
-	box-shadow: 12px 0 15px -4px #333333, -12px 0 15px -4px #333333;
 }
 .guildLST {
 	margin-bottom: 45px;
-	margin-right: 45px;
-	box-shadow: 12px 0 15px -4px #333333, -12px 0 15px -4px #333333;
 }
 .guildLSD {
 	margin-bottom: 45px;
-	margin-right: 45px;
-	box-shadow: 12px 0 15px -4px #333333, -12px 0 15px -4px #333333;
 }
 .guildSCH {
 	margin-bottom: 45px;
-	margin-right: 45px;
-	box-shadow: 12px 0 15px -4px #333333, -12px 0 15px -4px #333333;
 }
 .guildSB {
 	margin-bottom: 45px;
-	box-shadow: 12px 0 15px -4px #333333, -12px 0 15px -4px #333333;
 }
 
 /* footer */
