@@ -74,21 +74,24 @@ body {
 	margin-bottom: 45px;
 	margin-right: -10px;
 }
-.guildContainer {
-	margin-bottom: 120px;
+.guildContainer1 {
+	margin-left: 35px;
+	margin-right: -0.5px;
+}
+.guildContainer2 {
 	margin-left: 35px;
 }
 .guildPosition img:hover {
 	box-shadow: 12px 0 15px -4px #333333, -12px 0 15px -4px #333333;
-	height: 248px;
-	width: 248px;
+	height: 249px;
+	width: 249px;
 	cursor: pointer;
 }
 .guildDR {
 	margin-bottom: 45px;	
 }
 .guildBF {
-	margin-right: 45px;
+	margin-bottom: 45px;
 }
 .guildGtP {
 	margin-bottom: 45px;
