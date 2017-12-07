@@ -74,41 +74,211 @@ body {
 	margin-bottom: 45px;
 	margin-right: -10px;
 }
-.guildContainer1 {
-	margin-left: 35px;
-	margin-right: -0.5px;
+.guildCardBody {
+	background-color: black;
+	margin-top: -10px;
+	color: white;
+	padding: 10px;
+}
+.guildTitle {
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.guildCardText {
+	text-align: center;
+}
+.guildContainer {
+	margin-left: 30px;
 }
 .guildContainer2 {
-	margin-left: 35px;
-}
-.guildPosition img:hover {
-	box-shadow: 12px 0 15px -4px #333333, -12px 0 15px -4px #333333;
-	cursor: pointer;
+	margin-left: 30px;
 }
 .guildDR {
-	margin-bottom: 45px;	
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.cardDR {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	margin-bottom: 45px;
+}
+.buttonDR {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonDR:hover {
+	border: 2px solid white;
+	opacity: .8;
 }
 .guildBF {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.cardBF {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
 	margin-bottom: 45px;
+}
+.buttonBF {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonBF:hover {
+	border: 2px solid white;
+	opacity: .8;
 }
 .guildGtP {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.cardGtP {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
 	margin-bottom: 45px;
+}
+.buttonGtP {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonGtP:hover {
+	border: 2px solid white;
+	opacity: .8;
 }
 .guildLS {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.cardLS {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
 	margin-bottom: 45px;
+}
+.buttonLS {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonLS:hover {
+	border: 2px solid white;
+	opacity: .8;
 }
 .guildLST {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.cardLST {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
 	margin-bottom: 45px;
+}
+.buttonLST {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonLST:hover {
+	border: 2px solid white;
+	opacity: .8;
 }
 .guildLSD {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.cardLSD {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
 	margin-bottom: 45px;
+}
+.buttonLSD {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonLSD:hover {
+	border: 2px solid white;
+	opacity: .8;
 }
 .guildSCH {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.cardSCH {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
 	margin-bottom: 45px;
+}
+.buttonSCH {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonSCH:hover {
+	border: 2px solid white;
+	opacity: .8;
 }
 .guildSB {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.cardSB {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
 	margin-bottom: 45px;
 }
+.buttonSB {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonSB:hover {
+	border: 2px solid white;
+	opacity: .8;
+}
+
 
 /* footer */
 .footer {
