@@ -94,6 +94,31 @@ body {
 .guildContainer2 {
 	margin-left: 30px;
 }
+.btn {
+	width: 100%;
+	background-color: red!important;
+	border: 2px solid white;
+	color: white;
+	font-weight: bold;
+}
+.btn:hover {
+	opacity: .8;
+	color: white;
+}
+.btn-secondary {
+	border: 2px solid black;
+}
+.modal-title {
+	color: black;
+	padding-left: 50px;
+	text-align: center;
+}
+.modalParagraph {
+	text-align: center;
+}
+.modal-content {
+	color: black;
+}
 .guildDR {
 	height: 249px;
 	width: 249px;
@@ -106,16 +131,11 @@ body {
 	border-top-right-radius: .5em;
 	margin-bottom: 45px;
 }
-.buttonDR {
-	display: flex;
-	justify-content: center;
-	background-color: red!important;
-	border: 2px solid #FFFFFF!important;
-	font-weight: bold;
-}
-.buttonDR:hover {
-	border: 2px solid white;
-	opacity: .8;
+.modalImageDR {
+	border-radius: 10%;
+	height: 250px;
+	width: 250px;
+	padding: 20px;
 }
 .guildBF {
 	height: 249px;
