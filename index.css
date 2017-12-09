@@ -281,6 +281,12 @@ body {
 	border-top-left-radius: .4em;
 	border-top-right-radius: .5em;
 }
+.modalImageSCH {
+	border-radius: 10%;
+	height: 275px;
+	width: 275px;
+	padding: 20px;
+}
 .cardSCH {
 	border: 1px solid grey;
 	border-top-left-radius: .5em;
@@ -303,6 +309,12 @@ body {
 	width: 249px;
 	border-top-left-radius: .4em;
 	border-top-right-radius: .5em;
+}
+.modalImageSB {
+	border-radius: 10%;
+	height: 275px;
+	width: 275px;
+	padding: 20px;
 }
 .cardSB {
 	border: 1px solid grey;
