@@ -44,7 +44,32 @@
 /* body */
 body {
 	background-color: white;
+	max-width: 100%;
+	overflow-x: hidden;
 }
+
+/* About GiD */
+#gidInfo {
+	width: 80%;
+	margin: auto;
+}
+.img-circle {
+	border-radius: .5em;
+	height: 250px!important;
+	margin-top: 50px;
+}
+.panel-heading {
+	background-color: black!important;
+	color: gold!important;
+}
+.panel-body {
+	border: 2px solid black;
+	margin-top: -2px;
+	box-shadow: 5px 5px 10px grey;
+}
+
+/* Calendar */
+
 
 /* Other News Container */
 .container {
@@ -58,6 +83,12 @@ body {
 .caption {
 	color: white !important;
 	text-align: center;
+}
+#caption1 {
+	margin-bottom: 56px;
+}
+#caption3 {
+	margin-bottom: 43px;
 }
 
 /* guilds */
