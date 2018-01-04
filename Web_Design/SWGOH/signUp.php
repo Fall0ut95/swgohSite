@@ -1,13 +1,68 @@
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>GiD Home</title>
+  <title>Sign Up</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    /* registration page */
+  .registerHead {
+    width: 30%;
+    margin: 50px auto 0;
+    color: yellow;
+    background: black;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+  }
+  form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 50px;
+  }
+  .input-reg {
+    margin: 10px 0 10px 0;
+  }
+  .input-reg label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-reg input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  .regButton {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+  .regButton:hover {
+    background-color: #5B5B5B;
+  }
+  </style>
 </head>
 <body>
 
@@ -39,12 +94,44 @@
         <li><a href="#">CubsFanHan</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="signUp.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
 </nav>
+
+<!--Registration box -->
+<div class="registerHead">
+  <h2>Register</h2>
+</div>
+
+<form method="post" action="register.php">
+  <!-- display validation errors here -->
+  <?php include('errors.php'); ?>
+  <div class="input-reg">
+    <label>Username: </label>
+    <input type="text" name="username">    
+  </div>
+  <div class="input-reg">
+    <label>Email: </label>
+    <input type="text" name="email">
+  </div>
+  <div class="input-reg">
+    <label>Password: </label>
+    <input type="text" name="password1">
+  </div>
+  <div class="input-reg">
+    <label>Confirm Password: </label>
+    <input type="text" name="password2">
+  </div>
+  <div class="input-group">
+    <button type="submit" name="register" class="regButton">Register</button>
+  </div>
+  <p>
+    Already a member? <a href="login.php">Sign in</a>
+  </p>
+</form>
 
 <footer>
     <div class="footer" id="footer">

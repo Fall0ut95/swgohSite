@@ -1,17 +1,70 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>About GiD</title>
-<meta charset="utf-8">
+  <title>Login</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
 
+  <style type="text/css">
+    /* registration page */
+  .registerHead {
+    width: 30%;
+    margin: 50px auto 0;
+    color: yellow;
+    background: black;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+  }
+  form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 50px;
+  }
+  .input-reg {
+    margin: 10px 0 10px 0;
+  }
+  .input-reg label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-reg input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  .regButton {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+  .regButton:hover {
+    background-color: #5B5B5B;
+  }
+  </style>
+</head>
 <body>
+
 <!-- Navigation Bar -->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -47,29 +100,26 @@
   </div>
 </nav>
 
-<div id="gidInfo">    
-	  <div class="row">
-		  <div class="panel panel-default">
-		  <div class="panel-heading"><h4 align="center">GOOD IS DUMB</h4></div>
-		   <div class="panel-body">
-		  <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
-		   <img alt="User Pic" src="images/guildcomm2.png" id="profile-image1" class="img-circle img-responsive"> 
-		  </div>
-		  <div class="col-md-8 col-xs-12 col-sm-6 col-lg-8" >
-			  <div class="container" >
-				<h2>Good Is Dumb</h2>
-				<p>Led by:   <b> CubsFan Han, Keene91, and Kenfusion</b></p>
-			  </div>
-			   <hr>
-			  	<p>We are a community that was founded on the desire for a casual but committed SWGOH experience (Hence the Spaceballs theme). We are a no drama, relaxed, but committed community of guilds. We're thrilled you've decided to join us and hope you will make yourself at home right away.</p>
- 				<p>Here in GiD we have 8 guilds: My Own Best Friend, 1-800-DRUIDIA, Liquid Schwartz, Gone to Plaid,  Ludicrous Speed, Lone Starr, My Schwartz is Bigger, and Spaceballs: The Guild! Each guild has their own channels on this server (visible only to members of that guild) and we also have community channels that combine all four guilds. Please keep all interaction on the GiD Server respectful and appropriate.</p>
- 				<p>If you're a higher level player, be a helping hand to those who are newer to the game. If you're new to the game, don't be shy! Ask for advice. We have a mentor program and can assign you a more experienced player to give you some one on one advice.</p>
- 			    <p>Welcome again to GiD and may the Schwartz be with you!</p>
-		  </div>
-	</div>
+<!--Registration box -->
+<div class="registerHead">
+  <h2>Login</h2>
 </div>
-</div>
-</div>
+<form method="post" action="login.php">
+  <div class="input-reg">
+    <label>Username: </label>
+    <input type="text" name="username">    
+  </div>
+  <div class="input-reg">
+    <label>Password: </label>
+    <input type="text" name="password1">
+  </div>
+  <div class="input-group">
+    <button type="submit" name="login" class="regButton">Login</button>
+  </div>
+  <p>
+    Not yet a member? <a href="signUp.php">Sign up</a>
+  </p>
+</form>
 
 <footer>
     <div class="footer" id="footer">
@@ -109,5 +159,9 @@
     <!--/.footer-->
   </div>
 </footer>
+
 </body>
+
+
+
 </html>
