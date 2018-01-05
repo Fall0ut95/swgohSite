@@ -1,18 +1,19 @@
 <?php
+	session_start();
+
 	$username = "";
 	$email = "";
 	$errors = array();
 
-
 	//Connect to the database
-	$db = mysqli_connect('localhost', 'root', '', 'swgohRegistration');
+	$db = mysqli_connect('127.0.0.1', 'root', 'root', 'swgohRegistration');
 
 	// if the register button is clicked
 	if (isset($_POST['register'])) {
-		$username = mysql_real_escape_string($_POST['username']);
-		$email = mysql_real_escape_string($_POST['email']);
-		$password1 = mysql_real_escape_string($_POST['password1']);
-		$password2 = mysql_real_escape_string($_POST['password2']);
+		$username = mysqli_real_escape_string($db, $_POST['username']);
+		$email = mysqli_real_escape_string($db, $_POST['email']);
+		$password1 = mysqli_real_escape_string($db, $_POST['password1']);
+		$password2 = mysqli_real_escape_string($db, $_POST['password2']);
 
 		//ensure that the form fields are filled properly
 		if(empty($username)) {
@@ -24,7 +25,7 @@
 		if(empty($password1)) {
 			array_push($errors, "Password is required"); //add error to array
 		}
-		if(empty($password1 != password2)) {
+		if($password1 != $password2) {
 			array_push($errors, "The two passwords do not match"); //add error to array
 		}
 
@@ -34,6 +35,9 @@
 
 			$sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
 			mysqli_query($db, $sql);
+			$_SESSION['username'] = $username;
+			$_SERVER['success'] = "You are now logged in";
+			header('location: index.html'); //redirects to homepage
 		}
 	}
 ?>

@@ -106,24 +106,24 @@
   <h2>Register</h2>
 </div>
 
-<form method="post" action="register.php">
+<form method="post" action="signUp.php">
   <!-- display validation errors here -->
   <?php include('errors.php'); ?>
   <div class="input-reg">
     <label>Username: </label>
-    <input type="text" name="username">    
+    <input type="text" name="username" value="<?php echo $username; ?>">    
   </div>
   <div class="input-reg">
     <label>Email: </label>
-    <input type="text" name="email">
+    <input type="text" name="email" value="<?php echo $email; ?>">
   </div>
   <div class="input-reg">
     <label>Password: </label>
-    <input type="text" name="password1">
+    <input type="password" name="password1">
   </div>
   <div class="input-reg">
     <label>Confirm Password: </label>
-    <input type="text" name="password2">
+    <input type="password" name="password2">
   </div>
   <div class="input-group">
     <button type="submit" name="register" class="regButton">Register</button>
