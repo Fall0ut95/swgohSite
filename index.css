@@ -1,0 +1,453 @@
+@charset "UTF-8";
+/* navigation bar */
+.navbar {
+	background-color: #000000;
+}
+.navbar.navbar-inverse {
+  border: none;
+  border-radius: 0 !important;
+  padding: 0px;
+  margin-right: -10px;
+}
+.navbar .navbar-brand {
+  padding-top: 0px;
+}
+.navbar .navbar-brand img {
+  height: 50px;
+}
+.navbar.navbar-inverse li a:hover {
+	background-color: #696969;
+}
+.navbar.navbar-inverse li {
+	font-size: 1.25em;
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+	margin-top: 0;
+}
+.dropdown:hover .dropdown-menu li a:hover {
+	background-color: #7F7F7F;
+}
+
+/* carousel */
+.carousel {
+	margin-top: -20px;
+}
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 500px !important;
+}
+
+/* body */
+body {
+	background-color: white;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+/* About GiD */
+#gidInfo {
+	width: 80%;
+	margin: auto;
+}
+.img-circle {
+	border-radius: .5em;
+	height: 250px!important;
+	margin-top: 100px;
+}
+.panel-heading {
+	background-color: black!important;
+	color: gold!important;
+}
+.panel-body {
+
+	
+	border: 2px solid black;
+	margin-top: -2px;
+	box-shadow: 5px 5px 10px grey;
+}
+
+/* Calendar */
+
+
+/* Other News Container */
+.blog-box {
+    padding: 0 0px;
+    transition: .5s;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.blog-box-content h4 a {
+    font-size: 20px;
+    padding: 0px 0 0px;
+    text-transform: uppercase;
+    color:#2b2b2b;
+     text-decoration:none;
+    
+}
+.blog-box-content h4:hover {
+    color:#000;
+     text-decoration:none;
+    
+}
+.blog-box-content {
+padding: 0 20px 20px;
+}
+.blog-box-text h4 a {
+    color: #333;
+}
+
+/* guilds */
+.guildHeader {
+	margin-bottom: 45px;
+	margin-left: -10px;
+	margin-top: -10px;
+	margin-right: -35px;
+}
+.guildCardBody {
+	background-color: black;
+	margin-top: -10px;
+	color: white;
+	padding: 10px;
+}
+.guildTitle {
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.guildCardText {
+	text-align: center;
+}
+.guildContainer {
+	margin-left: 20px;
+}
+.guildContainer2 {
+	margin-left: 20px;
+}
+.btn {
+	width: 100%;
+	background-color: red!important;
+	border: 2px solid white;
+	color: white;
+	font-weight: bold;
+}
+.btn:hover {
+	opacity: .8;
+	color: white;
+}
+.btn-secondary {
+	border: 2px solid black;
+}
+.modal-title {
+	color: black;
+	padding-left: 50px;
+	text-align: center;
+}
+.modalParagraph {
+	font-size: 16px;
+}
+.modal-content {
+	color: black;
+}
+.guildDR {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.cardDR {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	margin-bottom: 45px;
+}
+.modalImageDR {
+	border-radius: 10%;
+	height: 275px;
+	width: 275px;
+	padding: 20px;
+}
+.guildBF {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.modalImageBF {
+	border-radius: 10%;
+	height: 275px;
+	width: 275px;
+	padding: 20px;
+}
+.cardBF {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	margin-bottom: 45px;
+}
+.buttonBF {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonBF:hover {
+	border: 2px solid white;
+	opacity: .8;
+}
+.guildGtP {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.modalImageGtP {
+	border-radius: 10%;
+	height: 275px;
+	width: 275px;
+	padding: 20px;
+}
+.cardGtP {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	margin-bottom: 45px;
+}
+.buttonGtP {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonGtP:hover {
+	border: 2px solid white;
+	opacity: .8;
+}
+.guildLS {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.modalImageLS {
+	border-radius: 10%;
+	height: 275px;
+	width: 275px;
+	padding: 20px;
+}
+.cardLS {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	margin-bottom: 45px;
+}
+.buttonLS {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonLS:hover {
+	border: 2px solid white;
+	opacity: .8;
+}
+.guildLST {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.modalImageLST {
+	border-radius: 10%;
+	height: 275px;
+	width: 275px;
+	padding: 20px;
+}
+.cardLST {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	margin-bottom: 45px;
+}
+.buttonLST {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonLST:hover {
+	border: 2px solid white;
+	opacity: .8;
+}
+.guildLSD {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.modalImageLSD {
+	border-radius: 10%;
+	height: 275px;
+	width: 275px;
+	padding: 20px;
+}
+.cardLSD {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	margin-bottom: 45px;
+}
+.buttonLSD {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonLSD:hover {
+	border: 2px solid white;
+	opacity: .8;
+}
+.guildSCH {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.modalImageSCH {
+	border-radius: 10%;
+	height: 275px;
+	width: 275px;
+	padding: 20px;
+}
+.cardSCH {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	margin-bottom: 45px;
+}
+.buttonSCH {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonSCH:hover {
+	border: 2px solid white;
+	opacity: .8;
+}
+.guildSB {
+	height: 249px;
+	width: 249px;
+	border-top-left-radius: .4em;
+	border-top-right-radius: .5em;
+}
+.modalImageSB {
+	border-radius: 10%;
+	height: 275px;
+	width: 275px;
+	padding: 20px;
+}
+.cardSB {
+	border: 1px solid grey;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+	margin-bottom: 45px;
+}
+.buttonSB {
+	display: flex;
+	justify-content: center;
+	background-color: red!important;
+	border: 2px solid #FFFFFF!important;
+	font-weight: bold;
+}
+.buttonSB:hover {
+	border: 2px solid white;
+	opacity: .8;
+}
+
+/* footer */
+.footer {
+	background: #000000;
+	height: auto;
+	padding-bottom: 20px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+	bottom: 0;
+}
+.footer p {
+	margin: 0;
+}
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: #f8e63c!important;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer h3 a {
+	color: #f8e63c;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #696969;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: #FFFFFF;
+}
+.newsletter-box .btn {
+	border: medium none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	height: 40px;
+	padding: 0;
+	width: 100%;
+	color: #fff;
+}
+.newsletter-box {
+	overflow: hidden;
+}
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.btnDiscord {
+	background-color: #8da0fc;
+	width: 100%;
+	height: 30px;
+}
+.btnDiscord:hover {
+	opacity: .8;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
