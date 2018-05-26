@@ -55,8 +55,9 @@ body {
 }
 .img-circle {
 	border-radius: .5em;
-	height: 250px!important;
-	margin-top: 100px;
+	height: 400px!important;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .panel-heading {
 	background-color: black!important;
@@ -144,17 +145,6 @@ padding: 0 20px 20px;
 .btn-secondary {
 	border: 2px solid black;
 }
-.modal-title {
-	color: black;
-	padding-left: 50px;
-	text-align: center;
-}
-.modalParagraph {
-	font-size: 16px;
-}
-.modal-content {
-	color: black;
-}
 .guildDR {
 	height: 249px;
 	width: 249px;
@@ -167,23 +157,11 @@ padding: 0 20px 20px;
 	border-top-right-radius: .5em;
 	margin-bottom: 45px;
 }
-.modalImageDR {
-	border-radius: 10%;
-	height: 275px;
-	width: 275px;
-	padding: 20px;
-}
 .guildBF {
 	height: 249px;
 	width: 249px;
 	border-top-left-radius: .4em;
 	border-top-right-radius: .5em;
-}
-.modalImageBF {
-	border-radius: 10%;
-	height: 275px;
-	width: 275px;
-	padding: 20px;
 }
 .cardBF {
 	border: 1px solid grey;
@@ -207,12 +185,6 @@ padding: 0 20px 20px;
 	width: 249px;
 	border-top-left-radius: .4em;
 	border-top-right-radius: .5em;
-}
-.modalImageGtP {
-	border-radius: 10%;
-	height: 275px;
-	width: 275px;
-	padding: 20px;
 }
 .cardGtP {
 	border: 1px solid grey;
