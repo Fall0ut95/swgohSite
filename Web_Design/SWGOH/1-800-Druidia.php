@@ -1,17 +1,22 @@
-<!doctype html>
-<html>
+<?php
+	include('connect-mysql.php');
+	include('guild_members.php');
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>About GiD</title>
-<meta charset="utf-8">
+  <title>GiD Home</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
 <body>
+
 <!-- Navigation Bar -->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -46,28 +51,7 @@
   </div>
 </nav>
 
-<div id="gidInfo">    
-	  <div class="row">
-		  <div class="panel panel-default">
-		  <div class="panel-heading"><h4 align="center">GOOD IS DUMB</h4></div>
-		   <div class="panel-body">
-		  <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
-		   <img alt="User Pic" src="images/gid.png" id="profile-image1" class="img-circle img-responsive"> 
-		  </div>
-		  <div class="col-md-8 col-xs-12 col-sm-6 col-lg-8" >
-			  <div class="container" >
-				<h2>Good Is Dumb</h2>
-			  </div>
-			   <hr>
-			  	<p>We are a community that was founded on the desire for a casual but committed SWGOH experience (Hence the Spaceballs theme). We are a no drama, relaxed, but committed community of guilds. We're thrilled you've decided to join us and hope you will make yourself at home right away.</p>
- 				<p>Here in GiD we have 8 guilds: My Own Best Friend, 1-800-DRUIDIA, Liquid Schwartz, Gone to Plaid,  Ludicrous Speed, Lone Starr, My Schwartz is Bigger, and Spaceballs: The Guild! Each guild has their own channels on this server (visible only to members of that guild) and we also have community channels that combine all four guilds. Please keep all interaction on the GiD Server respectful and appropriate.</p>
- 				<p>If you're a higher level player, be a helping hand to those who are newer to the game. If you're new to the game, don't be shy! Ask for advice. We have a mentor program and can assign you a more experienced player to give you some one on one advice.</p>
- 			    <p>Welcome again to GiD and may the Schwartz be with you!</p>
-		  </div>
-	</div>
-</div>
-</div>
-</div>
+
 
 <footer>
     <div class="footer" id="footer">
@@ -104,7 +88,10 @@
         <!--/.container--> 
     </div>
     <!--/.footer-->
-  </div>
 </footer>
+
 </body>
+
+
+
 </html>
